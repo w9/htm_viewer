@@ -1,6 +1,8 @@
 Instruction
 -----------
 
+To clone this repo into your computer, run the following command in your **Terminal**.
+
 ```
 $ cd
 $ git clone https://github.com/w9/htm_viewer
