@@ -1,0 +1,61 @@
+body {
+  margin:0;
+  padding: 0;
+}
+
+.app {
+  width: 95%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonTray {
+  margin: 0 0;
+}
+
+.buttonRow {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonRow.right {
+  justify-content: flex-end;
+}
+
+.button.red {
+  background-color: #F44336;
+}
+.button.green {
+  background-color: #4CAF50;
+}
+
+.button {
+  margin: 5px !important;
+}
+
+
+.indexDisplayText {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.indexDisplay.red {
+  background-color: #FFCDD2;
+}
+.indexDisplay.green {
+  background-color: #C8E6C9;
+}
+
+.indexDisplay {
+  width: 100%;
+  padding: 10px;
+}
+
+.viewer {
+  flex: 1;
+}
