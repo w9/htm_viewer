@@ -1,14 +1,14 @@
 Instruction
 -----------
 
-To clone this repo into your computer, run the following command in your **Terminal**.
+To clone this repo into your computer, run the following commands in your **Terminal**:
 
 ```
 $ cd
 $ git clone https://github.com/w9/htm_viewer
 ```
 
-To install Python dependencies
+To install Python dependencies:
 
 ```
 $ sudo pip install bs4 ansicolors
