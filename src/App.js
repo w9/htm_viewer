@@ -74,7 +74,13 @@ const App = ({ save, yes, no, list, idx, prevLink, nextLink }) => (
           </Button>
         </div>
       </div>
-      <iframe src={`/o1-htm_files/${list[idx].Filename}.htm`} title="htm" className="viewer" width="100%" height="300" />
+      <iframe
+        src={`/o1-htm_files/${list[idx].Filename}.htm`}
+        title="htm"
+        className="viewer"
+        width="100%"
+        height="300"
+      />
     </div>
   </HotKeys>
 );
