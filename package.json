@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "eslint-config-airbnb": "^16.1.0",
     "immutability-helper": "^2.6.5",
     "material-ui": "^1.0.0-beta.35",
     "papaparse": "^4.3.7",

@@ -88,7 +88,7 @@ def main():
     global num_links
     with open('./list.csv') as input_file:
         input_table = list(csv.DictReader(input_file))
-        input_table = [x for x in input_table if int(x['num_pages_with_shareholder_proposal']) > 5]
+        #input_table = [x for x in input_table if int(x['num_pages_with_shareholder_proposal']) > 5]
 
     num_links = len(input_table)
 
