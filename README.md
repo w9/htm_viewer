@@ -32,6 +32,6 @@ $ yarn start
 **Updated 05/16/2018**: To search for patterns and generated a new results.csv: (this assumes `o1-htm_files` is populated)
 
 ```
-$ cd ~/htm_viewer/script
+$ cd ~/htm_viewer/scripts
 $ node searchKeywords.js
 ```
