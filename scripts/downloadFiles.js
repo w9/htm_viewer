@@ -22,12 +22,8 @@ var table = papaparse_1.default.parse(csvContent, {
 });
 var patterns = [
     {
-        name: 'With resolved',
-        regex: /proposal.{100,400}?resolved.{0,5000}?board.{0,300}?recommend.{0,300}?vote.{0,300}?(against|for).{0,300}?.proposal/g,
-    },
-    {
-        name: 'Without resolved',
-        regex: /proposal.{100,5000}?board.{0,300}?recommend.{0,300}?vote.{0,300}?(against|for).{0,300}?.proposal/g,
+        name: 'Miaochan-nexus',
+        regex: /the board.{0,50}?recommend.{0,50}?vote.{0,50}?(against|for).{0,50}?.proposal/g,
     },
 ];
 console.log('number of rows =', table.data.length);

@@ -98,8 +98,6 @@ const App = ({
           </Button>
         </div>
       </div>
-<<<<<<< HEAD
-=======
       <div>
         {list[idx].shareholder_proposal &&
           list[idx].shareholder_proposal.map((p, i) => (
@@ -113,7 +111,6 @@ const App = ({
             />
           ))}
       </div>
->>>>>>> 8bfdfb9910d11e3764e9f939688f59a34abb70b4
       <iframe
         src={`/o1-htm_files/${list[idx].Filename}.htm`}
         title="htm"

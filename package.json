@@ -3,12 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "chalk": "latest",
     "cheerio": "^1.0.0-rc.2",
-=======
     "eslint-config-airbnb": "^16.1.0",
->>>>>>> 8bfdfb9910d11e3764e9f939688f59a34abb70b4
     "immutability-helper": "^2.6.5",
     "lodash": "^4.17.10",
     "material-ui": "^1.0.0-beta.35",
