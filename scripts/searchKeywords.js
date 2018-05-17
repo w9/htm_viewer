@@ -39,7 +39,7 @@ var outputTable = lodash_1.default(table.data)
     var _loop_1 = function (pattern) {
         var matchRes = text.match(pattern.regex);
         if (matchRes) {
-            return { value: matchRes.map(function (m) {
+            return { value: matchRes.slice(0, 1).map(function (m) {
                     console.log(chalk_1.default.inverse.bold.green(" [" + i + "] " + pattern.name + " "));
                     var matchDiversity = m.match(/diversity/g);
                     var numDiversity = matchDiversity ? matchDiversity.length : 0;
@@ -54,7 +54,8 @@ var outputTable = lodash_1.default(table.data)
             return state_1.value;
     }
     console.log(chalk_1.default.inverse.bold.red("[" + i + "] Not found"));
-    return [row];
+    // return [row];
+    return [];
 })
     .flatten()
     .value();

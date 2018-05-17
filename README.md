@@ -29,9 +29,13 @@ $ yarn install
 $ yarn start
 ```
 
-**Updated 05/16/2018**: To search for patterns and generated a new results.csv: (this assumes `o1-htm_files` is populated)
+**Updated 05/16/2018**: To search for patterns (this assumes `o1-htm_files` is populated)
 
 ```
 $ cd ~/htm_viewer/scripts
 $ node searchKeywords.js
 ```
+
+The above command generates a `results.csv` file which contains all occurrences of
+the searched pattern among the htm files. You can then copy this file as the new
+`list.csv` in `~/htm_viewer/public/`.

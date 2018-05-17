@@ -44,7 +44,7 @@ const outputTable = _(table.data)
       const matchRes = text.match(pattern.regex);
 
       if (matchRes) {
-        return matchRes.map((m) => {
+        return matchRes.slice(0, 1).map((m) => {
           console.log(chalk.inverse.bold.green(` [${i}] ${pattern.name} `));
           const matchDiversity = m.match(/diversity/g);
           const numDiversity = matchDiversity ? matchDiversity.length : 0;
@@ -60,7 +60,8 @@ const outputTable = _(table.data)
     }
 
     console.log(chalk.inverse.bold.red(`[${i}] Not found`));
-    return [row];
+    // return [row];
+    return [];
   })
   .flatten()
   .value();
